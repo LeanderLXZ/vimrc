@@ -132,13 +132,13 @@ let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
 endif
-let g:airline_left_sep = '⮀'
-let g:airline_left_alt_sep = '⮁'
-let g:airline_right_sep = '⮂'
-let g:airline_right_alt_sep = '⮃'
-let g:airline_symbols.branch = '⭠'
-let g:airline_symbols.readonly = '⭤'
-let g:airline_symbols.linenr = '⭡'
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
 
 " ---------------------- Indent Guides 对齐线 ----------------------
 let g:indent_guides_guide_size=1
@@ -330,7 +330,7 @@ let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_completion_bind = '<C-N>'
 let g:pymode_rope_autoimport_modules = ['os','numpy']
 " 关闭rope
-" let g:pymode_rope = 0
+let g:pymode_rope = 0
 
 " ---------------------- YouCompleteMe  ------------------------
 " Python3
@@ -547,8 +547,8 @@ nnoremap             ; :
 " vnoremap		<C-Z> <Esc>
 
 " 复制到剪贴板
-noremap		<leader>y "+y
-vnoremap	<leader>y "+y
+noremap		<leader>c "+y
+vnoremap	<leader>c "+y
 
 " airline shift buffer 切换Buffer
 nnoremap	  <s-tab> :bn                      <CR>
