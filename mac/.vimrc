@@ -438,7 +438,7 @@ set noshowmode
 " 命令行显示输入的命令
 "set showcmd
 " 光标从行首和行末时可以跳到另一行去
-set whichwrap=b,s,<,>,[,]
+set whichwrap=h,l,b,s,<,>,[,]
 " 自动补全
 filetype plugin indent on
 set completeopt=longest,menu

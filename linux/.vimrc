@@ -1,4 +1,5 @@
-" 取消VI兼容，VI键盘模式不易用 set nocompatible              " be iMproved, required
+" 取消VI兼容，VI键盘模式不易用 
+set nocompatible              " be iMproved, required
 " 打开文件类型检测功能
 filetype off                " required
 
@@ -434,7 +435,7 @@ set noshowmode
 " 命令行显示输入的命令
 "set showcmd
 " 光标从行首和行末时可以跳到另一行去
-set whichwrap=b,s,<,>,[,]
+set whichwrap=h,l,b,s,<,>,[,]
 " 自动补全
 filetype plugin indent on
 set completeopt=longest,menu
