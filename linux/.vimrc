@@ -581,6 +581,8 @@ nnoremap		<C-H> <C-F>
 nnoremap        <C-J> <C-D>
 nnoremap        <C-K> <C-U>
 nnoremap		<C-L> <C-B>
+nnoremap        <C-U> }
+nnoremap		<C-I> {
 
 " ---------------------- 窗口配置 ----------------------
 " 切换窗口
