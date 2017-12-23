@@ -1,12 +1,8 @@
 # My configuration for vim8.0.
-***
 ## Features
-***
 ![](./img/1.jpeg)
 ![](./img/2.jpeg)
-***
-## Plugin list:
-***
+## Plugin list
 * Tagbar
 * taglist
 * nerdtree
@@ -26,9 +22,7 @@
 * YouCompleteMe
 * python-mode
 * dash 
-***
 ## Install vim8.0 and using my configuration
-***
 ### 1. Install vim from source
 * Clone from vim's official repository
 ```
@@ -50,7 +44,6 @@ sudo make install
 ```
 cd ../../; rm -rf vim
 ```
-***
 ### 2. Get my .bashrc
 * Linux
 ```
@@ -64,7 +57,6 @@ git clone https://github.com/LeanderLXZ/vimrc.git
 mv vimrc/mac/.vimrc ~/
 rm -rf vimrc/
 ```
-***
 ### 3. Install plugins for vim
 * Get Vundle - a very useful plugin manager for vim
 ```
@@ -80,7 +72,6 @@ install plugins using the command:
 :VundleInstall
 ```
 Wait until the install is completed.
-***
 ### 4. Install dependencies of plugins
 * Install powerline-fonts for vim-airline
 ```
