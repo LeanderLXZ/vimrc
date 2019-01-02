@@ -180,14 +180,14 @@ let Tlist_Show_Menu=1
 " 设置界面分割
 let g:winManagerWindowLayout = "NERDTree|TagList,Tarbar"
 " 设置winmanager的宽度，默认为25
-let g:winManagerWidth = 30
+let g:winManagerWidth = 25
 
 " ---------------------- NERDTree ----------------------
 let NERDTreeAutoCenter=1
 let NERDTreeMouseMode=2
 let NERDTreeShowFiles=1
 let NERDTreeShowHidden=1
-let NERDTreeWinSize=30
+let NERDTreeWinSize=25
 let NERDTreeStatusline=1
 let g:NERDTree_title='NERD Tree'
 function! NERDTree_Start()
@@ -197,7 +197,7 @@ function! NERDTree_IsValid()
 	return 1
 endfunction
 " ---------------------- Tagbar ----------------------
-let g:tagbar_width=30
+let g:tagbar_width=25
 
 " ---------------------- ALE 语法检查 ----------------------
 " let &runtimepath.=',~/.vim/bundle/ale'
@@ -241,7 +241,7 @@ let g:tagbar_width=30
 " set statusline+=%*
 
 " ---------------------- Undotree ----------------------
-let g:undotree_SplitWidth = 30
+let g:undotree_SplitWidth = 25
 let g:undotree_DiffpanelHeight = 15
 if has("persistent_undo")
     set undodir=~/.undodir/
@@ -279,7 +279,7 @@ let g:ctrlp_by_filename = 1
 let g:ctrlp_regexp = 0
 
 " ---------------------- Gundo ----------------------
-" let g:gundo_width=30
+" let g:gundo_width=25
 
 " ---------------------- Pythonmode ----------------------
 " Python 3 Syntax
